@@ -4,14 +4,15 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://www.red5studios.com/ ../../../../schemas/component.xsd">
 	<Info
 		title="WhatThumper"
-		author="Rhef"
+		author="Rhef, Granite"
 		description="Shows thumper type"
-		url=""
+		url="http://www.firefallthegame.com/community/threads/addon-whatthumper-am-i-looking-at.145841/"
 		uiVersion="1000"
 	/>
 
 	<Events>
-		<Event name="ON_COMPONENT_LOAD"				bind="OnComponentLoad" />	
+		<Event name="ON_COMPONENT_LOAD"					bind="OnComponentLoad" />
+		<Event name="ON_UI_ENTITY_FOCUS"				bind="OnEntityFocus" />
 	</Events>
-	
+
 </Component>
